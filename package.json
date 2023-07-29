@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://faithdavid.github.io/MLSAPort'", //ok
+    "build-gh": "parcel build --public-url 'https://faithdavid.github.io/MLSAPort'", 
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
